@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MOQTDemo/MOQTDemo.vcxproj" Id="0e7c78e5-fee5-4dc0-b8df-7e991bbc691a" />
+</Solution>

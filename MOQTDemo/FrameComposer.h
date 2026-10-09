@@ -17,6 +17,10 @@ struct Frame {
     size_t size;
 };
 
+/// <summary>
+/// Classe per gestire la ricostruzione di chunk ricevuti dalla rete
+/// per la decompressione di quanto ricevuto.
+/// </summary>
 class FrameComposer
 {
 public:

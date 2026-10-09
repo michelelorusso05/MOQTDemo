@@ -6,6 +6,9 @@
 #include <atomic>
 #include <functional>
 
+/// <summary>
+/// Classe per gestire le connessioni MOQ.
+/// </summary>
 class MOQTManager
 {
 public:
@@ -69,6 +72,12 @@ public:
 	/// </summary>
 	void attemptResubscribe();
 
+	/// <summary>
+	/// Controlla se si è attualmente connessi ad un boradcast, o se si ha fatto richiesta
+	/// per farlo.
+	/// </summary>
+	/// <returns>true se è stata fatta richiesta, false altrimenti. Un valore di false indica anche che 
+	/// un'eventuale connessione precedente è stata terminata, ed è possibile fare una nuova richiesta.</returns>
 	bool subscribeRequested();
 
 private:

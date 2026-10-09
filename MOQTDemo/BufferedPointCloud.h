@@ -13,6 +13,10 @@ struct RawPoint {
 };
 #pragma pack(pop)
 
+/// <summary>
+/// Classe per gestire il caricamento di point cloud e per la traduzione in matrici di trasformazione
+/// compatibili con il render di instanced mesh.
+/// </summary>
 class BufferedPointCloud
 {
 public:

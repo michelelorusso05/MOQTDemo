@@ -145,9 +145,9 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\lz4.c" />
     <ClCompile Include="BufferedPointCloud.cpp" />
     <ClCompile Include="FrameComposer.cpp" />
+    <ClCompile Include="lz4.c" />
     <ClCompile Include="MOQTDemo.cpp" />
     <ClCompile Include="MOQTManager.cpp" />
   </ItemGroup>

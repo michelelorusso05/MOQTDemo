@@ -18,9 +18,6 @@
     <ClCompile Include="MOQTDemo.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\lz4.c">
-      <Filter>File di origine</Filter>
-    </ClCompile>
     <ClCompile Include="BufferedPointCloud.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
@@ -28,6 +25,9 @@
       <Filter>File di origine</Filter>
     </ClCompile>
     <ClCompile Include="FrameComposer.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="lz4.c">
       <Filter>File di origine</Filter>
     </ClCompile>
   </ItemGroup>
